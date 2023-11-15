@@ -1,0 +1,269 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ru' Physical Memory: 32689 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Users/Неместный/Documents/GitHub/Test-Project-for-Garden-Of-Draems
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+5462
+Successfully changed project path to: C:/Users/Неместный/Documents/GitHub/Test-Project-for-Garden-Of-Draems
+C:/Users/Неместный/Documents/GitHub/Test-Project-for-Garden-Of-Draems
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2764] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 2746233556 [EditorId] 2746233556 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MLAPK4M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [2764] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 2746233556 [EditorId] 2746233556 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MLAPK4M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 60.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Неместный/Documents/GitHub/Test-Project-for-Garden-Of-Draems/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   NVIDIA
+    VRAM:     8003 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004091 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 65.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.517 seconds
+Domain Reload Profiling:
+	ReloadAssembly (517ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (367ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (84ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005071 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Неместный\Documents\GitHub\Test-Project-for-Garden-Of-Draems\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Неместный\Documents\GitHub\Test-Project-for-Garden-Of-Draems\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.821 seconds
+Domain Reload Profiling:
+	ReloadAssembly (822ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (625ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (56.1 KB). Loaded Objects now: 3516.
+Memory consumption went from 109.5 MB to 109.4 MB.
+Total: 2.512500 ms (FindLiveObjects: 0.269900 ms CreateObjectMapping: 0.089800 ms MarkObjects: 2.090500 ms  DeleteObjects: 0.061500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14176.311823 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Source/Material/Standard/Bush.mat
+  artifactKey: Guid(2cf41212b35a2a847b9ef0a592da7539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Source/Material/Standard/Bush.mat using Guid(2cf41212b35a2a847b9ef0a592da7539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db48108109f27603749f4bfb542405d0') in 0.171096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Source/Material/Standard/Snow.mat
+  artifactKey: Guid(7ce0c47ef4bba284cb042c82a05e5e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Source/Material/Standard/Snow.mat using Guid(7ce0c47ef4bba284cb042c82a05e5e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd7af088103a411f4b8059417a71c81') in 0.090330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.123586 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Bush 1.mat
+  artifactKey: Guid(c29ead75bf8b98347b3750c174503bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Bush 1.mat using Guid(c29ead75bf8b98347b3750c174503bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45135ed113b6ed0e412e3933ff3e6ea') in 0.040572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Leaves 4.mat
+  artifactKey: Guid(824f63457fe39314aaa87b5a440b30d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Leaves 4.mat using Guid(824f63457fe39314aaa87b5a440b30d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1b94fff6bf7c3893e1d6fed0040b7f') in 0.030450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Leaves 5.mat
+  artifactKey: Guid(f30243575893d9f42b1f94fbf0486dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Leaves 5.mat using Guid(f30243575893d9f42b1f94fbf0486dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329ae718b02c80ff293d8b8f591f0c51') in 0.023332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Snow.mat
+  artifactKey: Guid(8b513525ad0aeaf4e8cb7735e49a2cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Snow.mat using Guid(8b513525ad0aeaf4e8cb7735e49a2cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15eb0e375beae7e3663dc92ff01d585d') in 0.009965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Leaves 3.mat
+  artifactKey: Guid(87125f9d77ed7de46b787a54e93086fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Leaves 3.mat using Guid(87125f9d77ed7de46b787a54e93086fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94dd40f9c12e05674401965456f4f56b') in 0.016924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Ground 1.mat
+  artifactKey: Guid(d1a91c17d55547545b24a586ec909407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Ground 1.mat using Guid(d1a91c17d55547545b24a586ec909407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b7deab1e57371b95b3c6a7e62c371b') in 0.017905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Pine Bark 1.mat
+  artifactKey: Guid(fa2a06bdd2604e44ebd2829cb6f2545f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Pine Bark 1.mat using Guid(fa2a06bdd2604e44ebd2829cb6f2545f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79404f1494bbd2ef99fe2556e938a9d') in 0.033161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Rock 1.mat
+  artifactKey: Guid(4d3cfa9017964d24bb58b510556f106d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Rock 1.mat using Guid(4d3cfa9017964d24bb58b510556f106d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d663ec4a2e7f20102bf058c4c542616') in 0.015328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Snow 1.mat
+  artifactKey: Guid(b00b3834a45dbef4295136bfe498f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Snow 1.mat using Guid(b00b3834a45dbef4295136bfe498f9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb684af9faf76ead6493e8d714b30479') in 0.014703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Water Material 1.mat
+  artifactKey: Guid(0091f174afbdc824b95ccebeda5ad9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Source/Material/HDRP/Water Material 1.mat using Guid(0091f174afbdc824b95ccebeda5ad9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282112c798ec125060c980e1d05bee19') in 0.011942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.302256 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Source/Material/URP/Grass.mat
+  artifactKey: Guid(ad42f0920d7a11445b0e8373db3fe46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Source/Material/URP/Grass.mat using Guid(ad42f0920d7a11445b0e8373db3fe46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd035611f39732a64e63f30cd0ba99f50') in 0.013043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Source/Material/URP/Pine Bark.mat
+  artifactKey: Guid(a540e46d3bde6a0458be56b4bbba20c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Source/Material/URP/Pine Bark.mat using Guid(a540e46d3bde6a0458be56b4bbba20c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3627059fbd3267421bf38bd72ce92fd') in 0.015029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Source/Material/URP/Ground.mat
+  artifactKey: Guid(509c4c783b63df84698035d743a519f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Source/Material/URP/Ground.mat using Guid(509c4c783b63df84698035d743a519f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da31ad4c9539075ca79c336735df2e2c') in 0.037928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Source/Material/URP/Leaves 3.mat
+  artifactKey: Guid(8459dda93f918784dbf091c320ca00d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Source/Material/URP/Leaves 3.mat using Guid(8459dda93f918784dbf091c320ca00d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2030b44bc5a1893ae9315392c26e4a34') in 0.017965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.111574 seconds.
+  path: Assets/Low Poly Environment Starter Kit/Source/Textues/Tree.png
+  artifactKey: Guid(be15d4350beb6b340b79ccfc2f828102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Environment Starter Kit/Source/Textues/Tree.png using Guid(be15d4350beb6b340b79ccfc2f828102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc367ec79bb5c6e4f2c063bf8a64c8b6') in 0.039377 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
