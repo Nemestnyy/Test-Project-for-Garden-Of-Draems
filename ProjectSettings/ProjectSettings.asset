@@ -778,14 +778,14 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: 3f230ff0-27aa-4c29-9074-3b791feff1d8
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: Test-Project-for-Garden-Of-Draems
+  organizationId: nemest
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
   forceSRGBBlit: 1
   virtualTexturingSupportEnabled: 0
-  genesisOrgId: 
+  genesisOrgId: '10171192970961'

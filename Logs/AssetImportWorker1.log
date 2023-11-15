@@ -15,7 +15,7 @@ C:/Users/Неместный/Documents/GitHub/Test-Project-for-Garden-Of-Draems
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-5462
+5613
 Successfully changed project path to: C:/Users/Неместный/Documents/GitHub/Test-Project-for-Garden-Of-Draems
 C:/Users/Неместный/Documents/GitHub/Test-Project-for-Garden-Of-Draems
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Неместный/Documents/GitHub/Test-Project-for-Garden-Of-Draems
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15772] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 741197537 [EditorId] 741197537 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MLAPK4M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17364] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 480284592 [EditorId] 480284592 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MLAPK4M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15772] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 741197537 [EditorId] 741197537 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MLAPK4M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17364] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 480284592 [EditorId] 480284592 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MLAPK4M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 61.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 168.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -67,89 +67,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004105 seconds.
+Registered in 0.087632 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 65.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.569 seconds
+- Completed reload, in  4.893 seconds
 Domain Reload Profiling:
-	ReloadAssembly (569ms)
-		BeginReloadAssembly (70ms)
+	ReloadAssembly (4893ms)
+		BeginReloadAssembly (3612ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (411ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (843ms)
+			LoadAssemblies (3610ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (111ms)
+			SetupTypeCache (540ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (227ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (230ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (65ms)
+				RefreshPlugins (74ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (106ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004417 seconds.
+Registered in 1.183510 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Неместный\Documents\GitHub\Test-Project-for-Garden-Of-Draems\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Неместный\Documents\GitHub\Test-Project-for-Garden-Of-Draems\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.864 seconds
+- Completed reload, in  3.732 seconds
 Domain Reload Profiling:
-	ReloadAssembly (865ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (3733ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (667ms)
-			LoadAssemblies (73ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (3460ms)
+			LoadAssemblies (2323ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (231ms)
+			SetupTypeCache (712ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (301ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (356ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (202ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (56.1 KB). Loaded Objects now: 3513.
-Memory consumption went from 109.1 MB to 109.1 MB.
-Total: 2.512600 ms (FindLiveObjects: 0.289100 ms CreateObjectMapping: 0.077600 ms MarkObjects: 2.079800 ms  DeleteObjects: 0.065400 ms)
+Unloading 22 unused Assets / (56.1 KB). Loaded Objects now: 3519.
+Memory consumption went from 114.1 MB to 114.0 MB.
+Total: 2.684500 ms (FindLiveObjects: 0.312100 ms CreateObjectMapping: 0.084900 ms MarkObjects: 2.226100 ms  DeleteObjects: 0.060900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,138 +163,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 11490.346749 seconds.
-  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered
-  artifactKey: Guid(c015a404eafe7dd47b2737efb40498a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered using Guid(c015a404eafe7dd47b2737efb40498a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a23faacdde5a9add4f1db415d9ae2af') in 0.012860 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.726317 seconds.
-  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Material/VertexColor.mat
-  artifactKey: Guid(460ab7224b1e21e4e9703cb892c68d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Material/VertexColor.mat using Guid(460ab7224b1e21e4e9703cb892c68d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8114cc14d3f532393685d391a6285b20') in 0.112458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.820947 seconds.
-  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Rocks_Cuboids_01b.fbx
-  artifactKey: Guid(e72e74f2622b9804ea31d89c41137321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Rocks_Cuboids_01b.fbx using Guid(e72e74f2622b9804ea31d89c41137321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df29e9590d3fff607a0c70fd923ac1b') in 0.070446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Rocks_Snot_01a.fbx
-  artifactKey: Guid(6c30d7f7ef1430b4eaf0cbff5dd08a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Rocks_Snot_01a.fbx using Guid(6c30d7f7ef1430b4eaf0cbff5dd08a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b969d3c7ad878ff2a2828f5904176a') in 0.038092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Trees_Tire_01d.fbx
-  artifactKey: Guid(3558a1f932a73dc4fabfc06214f0941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Trees_Tire_01d.fbx using Guid(3558a1f932a73dc4fabfc06214f0941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fb558889bd2f5fb884e316a4876824') in 0.039940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Rocks_Stoolids_01d.fbx
-  artifactKey: Guid(75f47cccdfd13c24b90e309cf72197bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Meshes/EA04_Rocks_Stoolids_01d.fbx using Guid(75f47cccdfd13c24b90e309cf72197bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc3e6f970fdb263db21cf555fc6e4b5') in 0.040035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.821231 seconds.
-  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Textures/EA04_LPNP-Artefacts_Colorsheet_v2.png
-  artifactKey: Guid(17e8436b87bc6b44696733bc05f5f495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Textures/EA04_LPNP-Artefacts_Colorsheet_v2.png using Guid(17e8436b87bc6b44696733bc05f5f495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9432ecf84abc980112ba102d8739f7a2') in 0.061738 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Textures/EA04_LPNP-TinyForest_Colorsheet_v3.png
-  artifactKey: Guid(ec2878ae430a7c24eab58a35bd911f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt/LowPolyNatureProject - EA04 Tiny Forest Remastered/Textures/EA04_LPNP-TinyForest_Colorsheet_v3.png using Guid(ec2878ae430a7c24eab58a35bd911f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494b8dda3213cb910e99f468832c1f21') in 0.015696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.434198 seconds.
-  path: Assets/EmaceArt_LavaPlant/Skybox/SkyBox/Sky_2_Left+X.png
-  artifactKey: Guid(530cdbf9e0f2f45239f957330e5cb249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt_LavaPlant/Skybox/SkyBox/Sky_2_Left+X.png using Guid(530cdbf9e0f2f45239f957330e5cb249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99de54811e98cb7eef2e05d976b03c37') in 0.024611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/EmaceArt_LavaPlant/Skybox/SkyBox/Sky_5_Down-Y.png
-  artifactKey: Guid(0986bee61deb042389dfc7a860a1fa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt_LavaPlant/Skybox/SkyBox/Sky_5_Down-Y.png using Guid(0986bee61deb042389dfc7a860a1fa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c449ccd318e451897b5f702fb95413f') in 0.015125 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/EmaceArt_LavaPlant/Skybox/SkyBox/Sky_Up+Y.png
-  artifactKey: Guid(4b733fcd5d5b54a4d8f2dff5482e0126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt_LavaPlant/Skybox/SkyBox/Sky_Up+Y.png using Guid(4b733fcd5d5b54a4d8f2dff5482e0126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a0942a7d65da9402365faf577827f6') in 0.030212 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 360.228518 seconds.
-  path: Assets/EmaceArt_LavaPlant/Prefabs/EA_Clif_01b_Default.prefab
-  artifactKey: Guid(d68da814d53d5a842a743c1699c6617c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt_LavaPlant/Prefabs/EA_Clif_01b_Default.prefab using Guid(d68da814d53d5a842a743c1699c6617c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428da3bbb272ccde14e3218e0a955805') in 0.036335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/EmaceArt_LavaPlant/Prefabs/Rocks_01c_Default.prefab
-  artifactKey: Guid(171d553dcae56124aa6a1ec1fdb8854f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt_LavaPlant/Prefabs/Rocks_01c_Default.prefab using Guid(171d553dcae56124aa6a1ec1fdb8854f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5325784b06b9750b1e39201c4fb9532c') in 0.027011 seconds 
+  Time since last request: 20218.678160 seconds.
+  path: Assets/EmaceArt_LavaPlant/Material/Plane.mat
+  artifactKey: Guid(20a71abf19b1eba4180cb8e4d046caff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt_LavaPlant/Material/Plane.mat using Guid(20a71abf19b1eba4180cb8e4d046caff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f236e3b927b20a7af881e4bc110574') in 0.151052 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/EmaceArt_LavaPlant/Prefabs/EA_Puddle_01c_Default.prefab
-  artifactKey: Guid(6a4bb2590ab0fe4499450223b402a8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt_LavaPlant/Prefabs/EA_Puddle_01c_Default.prefab using Guid(6a4bb2590ab0fe4499450223b402a8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b06e3416587b01526f576ff779da270') in 0.016394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/EmaceArt_LavaPlant/Prefabs/EA_Plant_01b_Default.prefab
-  artifactKey: Guid(ef58c30d9dc06a842ba94e365f157dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt_LavaPlant/Prefabs/EA_Plant_01b_Default.prefab using Guid(ef58c30d9dc06a842ba94e365f157dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77c3f2bdb6e132aca5cab0b663fee73') in 0.016975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/EmaceArt_LavaPlant/Prefabs/EA_Plant_01a_Default.prefab
-  artifactKey: Guid(f7968a2e493ab01448ea52078fa8a896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt_LavaPlant/Prefabs/EA_Plant_01a_Default.prefab using Guid(f7968a2e493ab01448ea52078fa8a896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbcf954d7f72e36651915fafd1ca309c') in 0.015951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/EmaceArt_LavaPlant/Prefabs/EA_Plant_01e_Default.prefab
-  artifactKey: Guid(88a6c31095668d046b2d8f8c8101c845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt_LavaPlant/Prefabs/EA_Plant_01e_Default.prefab using Guid(88a6c31095668d046b2d8f8c8101c845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fac60933fe5386782d905ad0c1a703c') in 0.019523 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/EmaceArt_LavaPlant/Prefabs/EA_Fruit_01b_Default.prefab
-  artifactKey: Guid(9384a9cf18e2a574186830c72b490a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt_LavaPlant/Prefabs/EA_Fruit_01b_Default.prefab using Guid(9384a9cf18e2a574186830c72b490a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5134f3e5b1893bebc4278f3bc5c55e1d') in 0.014907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/EmaceArt_LavaPlant/Prefabs/EA_Plant_01c_Default.prefab
-  artifactKey: Guid(b538f75a90be6b94a9a6b2347fe7bf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt_LavaPlant/Prefabs/EA_Plant_01c_Default.prefab using Guid(b538f75a90be6b94a9a6b2347fe7bf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd06a3edb03d45eeb4bb150376121e9') in 0.016551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/EmaceArt_LavaPlant/Prefabs/EA_Clif_01d_Default.prefab
-  artifactKey: Guid(a1afd15cbb93fea4bad648ed05e0af69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt_LavaPlant/Prefabs/EA_Clif_01d_Default.prefab using Guid(a1afd15cbb93fea4bad648ed05e0af69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0100f4a1221068c612cb4d5362e4b53') in 0.023169 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/EmaceArt_LavaPlant/Prefabs/EA_Puddle_01b_Default.prefab
-  artifactKey: Guid(34791ce18d065aa43a02a06ff5e3c703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt_LavaPlant/Prefabs/EA_Puddle_01b_Default.prefab using Guid(34791ce18d065aa43a02a06ff5e3c703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373caeb28c8d62e7c971434b1a05e338') in 0.019025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/EmaceArt_LavaPlant/Prefabs/EA_Clif_01c_Default.prefab
-  artifactKey: Guid(27c3faa0d10c39742aab8ab802a5dd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmaceArt_LavaPlant/Prefabs/EA_Clif_01c_Default.prefab using Guid(27c3faa0d10c39742aab8ab802a5dd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7082c6ab67f57f003eefcd01f4b17104') in 0.013263 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  path: Assets/EmaceArt_LavaPlant/Material/EA_Lava_water.mat
+  artifactKey: Guid(4c647d1fb76df084a87cb66050040bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmaceArt_LavaPlant/Material/EA_Lava_water.mat using Guid(4c647d1fb76df084a87cb66050040bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639677d4692c9ea9a505221b64afa0c7') in 0.020079 seconds 
